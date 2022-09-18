@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(./fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url(./fonts/RobotoSlab-Regular.ttf);
+}
+
+#title{
+    font-family: 'Roboto Slab';
+    fallback: 'Serif';
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+  
+.head{
+    font-family: 'Roboto Slab';
+    fallback: 'Serif';
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+#pfp{
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: table;
+    margin: 0 auto;
+}
+
+.c{
+    float: left;
+    width:100%;
+    font-size: 23px;
+}
+    
+    
+.r:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+#txt{
+    width: 60%;
+    font-size: 23px;
+} 
+
+@media (min-width: 800px) {
+    .c {
+        width: 50%;
+    }
+}
+  
+p{
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+}
+
+h4{
+    white-space: pre;
+    font-family: 'Roboto Slab';
+    fallback: 'Serif';
+    color: rgb(51, 51, 51);
+    font-weight: normal;
+}  
+
+ol {
+    display: table;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+}
+body {
+    background-image: url('');
+}
+  
+nav{
+    background-color: black;
+    overflow: hidden;    
+}
+  
+nav a {
+    float: left;
+    font-size: 16px;
+    color: #42b4d6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a{
+    color: #42b4d6;
+    text-decoration: none;
+    font-size: 160%;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+  
+body{
+    background-color: lightblue;    
+}
+
+footer{
+    text-align: right;
+}
